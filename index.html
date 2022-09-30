@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container container-fluid my-5">
+        <div class="row justify-content-center d-flex align-items-center">
+            <div class="col-md-4 shadow p-3 rounded">
+                <div class="card">
+                    <div class="card-header text-center text-white bg-dark">
+                        <h5>Formulario <i class="fa fa-lock"></i></h5>
+                    </div>
+
+                    <div class="card-body">
+                        <form>
+                            <div class="col-sm-11">
+                                <input type="number" class="form-control" name="cedula" placeholder="cedula">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="nombre" placeholder="nombre">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="apellido" placeholder="apellido">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="pais" placeholder="pais">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="departamento" placeholder="departamento">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="ciudad" placeholder="ciudad">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="codigo_postal"
+                                    placeholder="codigo postal">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="email" placeholder="email">
+                            </div>
+
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" name="direccion" placeholder="direccion">
+                            </div>
+
+                            <div class="text-center my-1">
+                                <button class="btn btn-success">Guardar</button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <table class="table table-bordered table-striped table-sm table-dark">
+        <thead>
+            <tr class="text-white text-center">
+                <th scope="col">Cedula</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">pais</th>
+                <th scope="col">departamento</th>
+                <th scope="col">ciudad</th>
+                <th scope="col">Codigo Postal</th>
+                <th scope="col">Email</th>
+                <th scope="col">Direccion</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <td scope="row" class="text-left">1</td>
+            <td scope="row" class="text-center">Juan</td>
+            <td scope="row" class="text-center">Jimenez</td>
+            <td scope="row" class="text-center">19-08-2022</td>
+            <td scope="row" class="text-center">juanjiimenez8@gmail.com</td>
+            <td>
+                <div class="d-flex justify-content-center"> <button class="btn btn-primary">Editar </button></div>
+            </td>
+            <td>
+                <div class="d-flex justify-content-center"> <button class="btn btn-danger">Eliminar </button></div>
+            </td>
+        </tbody>
+    </table>
+
+
+</body>
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</html>
