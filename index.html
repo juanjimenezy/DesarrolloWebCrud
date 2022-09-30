@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -46,7 +47,7 @@
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="codigo_postal"
+                                <input type="text" class="form-control" name="codigoPostal"
                                     placeholder="codigo postal">
                             </div>
 
@@ -59,7 +60,7 @@
                             </div>
 
                             <div class="text-center my-1">
-                                <button class="btn btn-success">Guardar</button>
+                                <button class="btn btn-success" onclick="Guardar()">Guardar</button>
                             </div>
                         </form>
 
@@ -76,6 +77,7 @@
     <table class="table table-bordered table-striped table-sm table-dark">
         <thead>
             <tr class="text-white text-center">
+                <th scope="col">id</th>
                 <th scope="col">Cedula</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
@@ -88,23 +90,14 @@
             </tr>
         </thead>
  
-        <tbody>
-            <td scope="row" class="text-left">1111111</td>
-            <td scope="row" class="text-center">Juan</td>
-            <td scope="row" class="text-center">Jimenez</td>
-            <td scope="row" class="text-center">Colombia</td>
-            <td scope="row" class="text-center">Atlantico</td>
-            <td scope="row" class="text-center">Barranquilla</td>
-            <td scope="row" class="text-center">08005</td>
-            <td scope="row" class="text-center">juanjiimenez8@gmail.com</td>
-            <td scope="row" class="text-center">Calle 5 carrera 9</td>
+        <tbody id="detalle">
 
-            
         </tbody>
     </table>
 
 
 </body>
 <script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js"></script>
 
 </html>
