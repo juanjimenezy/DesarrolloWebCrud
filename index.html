@@ -21,46 +21,45 @@
                     </div>
 
                     <div class="card-body">
-                        <form>
+                        <form id="form">
                             <div class="col-sm-11">
-                                <input type="number" class="form-control" name="cedula" placeholder="cedula">
+                                <input type="number" class="form-control" id="cedula" placeholder="cedula">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="nombre" placeholder="nombre">
+                                <input type="text" class="form-control" id="nombre" placeholder="nombre">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="apellido" placeholder="apellido">
+                                <input type="text" class="form-control" id="apellido" placeholder="apellido">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="pais" placeholder="pais">
+                                <input type="text" class="form-control" id="pais" placeholder="pais">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="departamento" placeholder="departamento">
+                                <input type="text" class="form-control" id="departamento" placeholder="departamento">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="ciudad" placeholder="ciudad">
+                                <input type="text" class="form-control" id="ciudad" placeholder="ciudad">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="codigoPostal"
-                                    placeholder="codigo postal">
+                                <input type="number" class="form-control" id="codigoPostal" placeholder="codigo postal">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="email" placeholder="email">
+                                <input type="text" class="form-control" id="email" placeholder="email">
                             </div>
 
                             <div class="col-sm-11">
-                                <input type="text" class="form-control" name="direccion" placeholder="direccion">
+                                <input type="text" class="form-control" id="direccion" placeholder="direccion">
                             </div>
 
                             <div class="text-center my-1">
-                                <button class="btn btn-success" onclick="Guardar()">Guardar</button>
+                                <button type="button" class="btn btn-success" onclick="Guardar()" id="guardar">Guardar</button>
                             </div>
                         </form>
 
@@ -95,9 +94,9 @@
         </tbody>
     </table>
 
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/index.js"></script>
+
 
 </html>
